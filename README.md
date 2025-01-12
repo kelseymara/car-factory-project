@@ -1,5 +1,6 @@
 # Overview
 Project created: Spring 2024, CS 355 Principles of Programming Languages
+
 This project uses the functional programming language Haskell to create an "assembly line" program where users users are able to select different options to generate a custom car.
 
 ## Features
@@ -28,16 +29,15 @@ The program enforces the following rules to dynamically show or hide options bas
 8. **Rear-Wheel** drive is exclusive to the **Sport** package.
 9. **Four-Wheel** drive is only available to **Towing** packages.
 
-## Implementation
-Using Haskell's functional paradigm, the program ensures robust validation of user selections, adhering to the rules specified above while maintaining a seamless user experience. Each option dynamically updates based on the user's choices, ensuring only valid configurations are possible.
-
 ## How to run
-- CD into directory with template.hs file
-Run this command to compile main and link project: 
+1. CD into directory with template.hs file
+
+2. Run this command to compile main and link project: 
 ```terminal
 ghc -o project-name template.hs
 ```
-Run this command to run: 
+
+3. Run this command to run: 
 ```terminal
 ./project-name
 ```
